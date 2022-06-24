@@ -1,38 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@500;800&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Anek Malayalam', sans-serif;
+}
+
+h1 {
+    color: #131515;
+    font-weight: 800;
+}
+
+h4 {
+    margin-top: 1em;
+    color: #2B2C28;
+    font-weight: 500;
+}
+
 .App {
-  text-align: center;
+
+    background-color: #D6E5E3;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #666;
+    border-radius: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+    margin: 3em 4em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button {
+    padding:  .5em 1.25em;
+    border: 2px solid #666;
+    box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin: 1.5em;
+    font-size: 2em;
 }
 
-.App-link {
-  color: #61dafb;
+.box {
+    background-color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box2 {
+    background-color: #D33F49;
+}
+
+.box3 {
+    background-color: #44CF6C;
 }
