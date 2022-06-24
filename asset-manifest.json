@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-render-props/static/css/main.3a5ad6c0.css",
+    "main.js": "/react-render-props/static/js/main.5c24278b.js",
+    "index.html": "/react-render-props/index.html",
+    "main.3a5ad6c0.css.map": "/react-render-props/static/css/main.3a5ad6c0.css.map",
+    "main.5c24278b.js.map": "/react-render-props/static/js/main.5c24278b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a5ad6c0.css",
+    "static/js/main.5c24278b.js"
+  ]
+}
